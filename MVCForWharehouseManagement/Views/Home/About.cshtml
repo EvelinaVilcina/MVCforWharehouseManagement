@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MVCForWharehouseManagement.Models.WharehouseManagementViewModels.OrderDateGroup>
+
+@{
+    ViewData["Title"] = "Order Statistics";
+}
+
+<h2>Order statistics</h2>
+
+<table>
+    <tr>
+        <th>
+            Order date
+        </th>
+        <th>
+            Orders
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTime)
+            </td>
+            <td>
+                @item.OrderCount
+            </td>
+        </tr>
+    }
+</table>

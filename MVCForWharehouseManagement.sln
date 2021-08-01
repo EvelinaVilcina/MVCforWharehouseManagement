@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCForWharehouseManagement", "MVCForWharehouseManagement\MVCForWharehouseManagement.csproj", "{BD79DDD9-A1DC-4390-B666-4D8809956B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD79DDD9-A1DC-4390-B666-4D8809956B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD79DDD9-A1DC-4390-B666-4D8809956B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD79DDD9-A1DC-4390-B666-4D8809956B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD79DDD9-A1DC-4390-B666-4D8809956B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4988014-9015-415E-B5C9-E19A8F9AFCC7}
+	EndGlobalSection
+EndGlobal
